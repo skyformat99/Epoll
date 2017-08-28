@@ -100,11 +100,6 @@ int main(char* argv[], int argc)
         }
     });
 
-    while(getline(std::cin))
-    {
-
-    }
-
     th.join(); // wait terminate
     client.DisConnect();
 
